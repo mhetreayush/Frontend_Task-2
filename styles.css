@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.top {
+    margin-left: 2rem;
+}
+
+#header {
+    background-color: rgb(12, 153, 235);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 3px 7px 6px black;
+}
+
+.container {
+    border: rgb(12, 153, 235) solid;
+    padding: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+    height: 12rem;
+}
+
+.image {
+    float: left;
+    height: 12rem;
+    border-radius: 0.7rem;
+}
+
+.info {
+    margin-left: 1rem;
+    float: left;
+}
+
+.rating {
+    float: right;
+}
+
+.action {
+    background-color: pink;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.thriller {
+    background-color: greenyellow;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.info h1 {
+    margin-bottom: 1.75rem;
+}
+
+.info h3 {
+    font-weight: 400;
+}
+
+.rating {
+    color: green;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.thumb {
+    fill: green;
+    display: inline-block;
+}
+
+@media only screen and (max-width:1000px) {
+    .container {
+        height: 24rem
+    }
+
+    .info {
+        width: 60%;
+    }
+
+    .rating {
+        color: rgb(12, 153, 235);
+    }
+
+    .thumb {
+        fill: rgb(12, 153, 235);
+    }
+}
