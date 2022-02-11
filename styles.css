@@ -69,23 +69,38 @@ body {
 
 .thumb {
     fill: green;
-    display: inline-block;
+    display: inline;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:960px) {
+    body{font-size:0.7rem}
+
     .container {
-        height: 24rem
+        padding: 0.4rem;
+        height: 22rem;
     }
 
     .info {
-        width: 60%;
+        padding: 0;
+        margin: 0;
+        display: block;
+        width:60%;
     }
 
     .rating {
+        width: 10%;
+        padding: 2rem 0;
+        font-size: 0.7rem;
         color: rgb(12, 153, 235);
     }
 
     .thumb {
+        
         fill: rgb(12, 153, 235);
     }
+ .image{width: 100%;}
+.info p{
+    padding: 0%;
+    width:100%;
+}
 }
