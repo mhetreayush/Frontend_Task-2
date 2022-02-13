@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Montserrat";
+    background-color: white;
 }
 
 .top {
@@ -26,13 +27,14 @@ body {
 }
 
 .image {
+    
     float: left;
     height: 12rem;
     border-radius: 0.7rem;
 }
 
 .info {
-    margin-left: 1rem;
+    margin-left: 2rem;
     float: left;
 }
 
@@ -42,22 +44,26 @@ body {
 
 .action {
     background-color: pink;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    margin-right: 0.7rem;
+    font-weight: 900;
     border-radius: 0.3rem;
 }
 
 .thriller {
     background-color: greenyellow;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    font-weight: 900;
     border-radius: 0.3rem;
 }
 
 .info h1 {
-    margin-bottom: 1.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .info h3 {
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .rating {
@@ -83,14 +89,16 @@ body {
     .info {
         padding: 0;
         margin: 0;
+        margin-left: 1rem;
         display: block;
         width:60%;
     }
 
     .rating {
-        width: 10%;
-        padding: 2rem 0;
-        font-size: 0.7rem;
+        width: 1.7rem;
+        padding-top: 3.5rem;
+        padding-right: 0.5rem;
+        font-size: 1rem;
         color: rgb(12, 153, 235);
     }
 
@@ -98,7 +106,9 @@ body {
         
         fill: rgb(12, 153, 235);
     }
- .image{width: 100%;}
+ .image{width: 70%;
+margin:2.5% 15% ;
+}
 .info p{
     padding: 0%;
     width:100%;
