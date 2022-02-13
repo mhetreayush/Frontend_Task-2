@@ -45,15 +45,15 @@ body {
 .action {
     background-color: pink;
     padding: 0.5rem;
-    margin-right: 0.7rem;
-    font-weight: 900;
+    /* margin-right: 0.7rem; */
+    /* font-weight: 900; */
     border-radius: 0.3rem;
 }
 
 .thriller {
     background-color: greenyellow;
     padding: 0.5rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     border-radius: 0.3rem;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .info h3 {
     font-weight: 400;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .rating {
@@ -96,8 +96,7 @@ body {
 
     .rating {
         width: 1.7rem;
-        padding-top: 3.5rem;
-        padding-right: 0.5rem;
+        padding-top: 5rem;
         font-size: 1rem;
         color: rgb(12, 153, 235);
     }
@@ -106,8 +105,8 @@ body {
         
         fill: rgb(12, 153, 235);
     }
- .image{width: 70%;
-margin:2.5% 15% ;
+ .image{width: 90%;
+margin:2.5% 5% ;
 }
 .info p{
     padding: 0%;
